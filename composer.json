@@ -1,0 +1,23 @@
+{
+    "name": "kamilsamaj/php-composer-app",
+    "description": "Hello World PHP Composer App",
+    "type": "project",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Samaj",
+            "email": "kamilsamaj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/HelloWorld/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/test.php"
+    }
+}
